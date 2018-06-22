@@ -80,6 +80,12 @@
     <dependencies>
         <!-- RUNTIME -->
         <dependency>
+            <groupId>ninja.oscaz</groupId>
+            <artifactId>hero</artifactId>
+            <version>1.0.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>${version.apache.lang3}</version>
@@ -89,12 +95,6 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-collections4</artifactId>
             <version>${version.apache.collections4}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.google.inject</groupId>
-            <artifactId>guice</artifactId>
-            <version>${version.google.guice}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
